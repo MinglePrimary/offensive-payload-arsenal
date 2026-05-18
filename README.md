@@ -92,7 +92,7 @@ Recommended workflow:
 ## 🧪 Practical Mindset
 
 ```id="h0u4b6"
-Input → Reflection → Context → Filter → Bypass → Exploit → Chain
+Input → Reflection → Context → Filter → Bypass Filter → Exploit Chain
 ```
 
 Do not blindly copy payloads.
@@ -128,9 +128,9 @@ This repository is built by aggregating, refining, and validating payloads from 
 * Personal testing experience
 * AI-assisted generation tools such as:
 
-  * ChatGPT
-  * Gemini
-  * Claude
+  * ChatGPT (Using GPT-5.5, as 90% of this collection)
+  * Gemini (For researching CVEs, we will update soon)
+  * Claude (For researching CVEs, we will update soon)
 
 ⚠️ Important Notes:
 
@@ -148,7 +148,7 @@ This repository is intended strictly for:
 
 * Educational purposes
 * Authorized security testing
-* Research and training
+* Research and training activities
 
 You are responsible for your actions.
 
