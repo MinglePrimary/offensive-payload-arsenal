@@ -1,0 +1,10 @@
+null
+Origin: null
+file://
+chrome-extension://random
+moz-extension://random
+sandbox
+data://
+blob:null
+filesystem:
+about:blank

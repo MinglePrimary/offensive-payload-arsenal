@@ -1,0 +1,10 @@
+id
+username
+email
+password
+role
+permissions
+token
+createdAt
+updatedAt
+isAdmin

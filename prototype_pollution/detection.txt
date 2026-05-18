@@ -1,0 +1,10 @@
+{"**proto**":{"polluted":"true"}}
+{"**proto**":{"isAdmin":true}}
+{"constructor":{"prototype":{"polluted":"true"}}}
+{"constructor":{"prototype":{"isAdmin":true}}}
+{"prototype":{"polluted":"true"}}
+{"**proto**":{"debug":true}}
+{"**proto**":{"test":"polluted"}}
+{"constructor.prototype.polluted":"true"}
+{"**proto**.polluted":"true"}
+{"prototype.polluted":"true"}

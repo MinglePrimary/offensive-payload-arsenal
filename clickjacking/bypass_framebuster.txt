@@ -1,0 +1,10 @@
+<iframe src="https://target.com" sandbox="allow-scripts allow-forms"></iframe>
+<iframe src="https://target.com" sandbox="allow-top-navigation"></iframe>
+<iframe src="https://target.com" sandbox="allow-same-origin"></iframe>
+<iframe src="https://target.com" sandbox="allow-scripts allow-same-origin"></iframe>
+<iframe src="https://target.com" sandbox="allow-popups"></iframe>
+<iframe src="https://target.com" name="frame"></iframe>
+<iframe src="https://target.com" id="frame"></iframe>
+<iframe src="https://target.com" style="position:absolute;top:-1000px"></iframe>
+<iframe src="https://target.com" style="opacity:0;pointer-events:auto"></iframe>
+<iframe src="https://target.com" style="transform:scale(0.01)"></iframe>

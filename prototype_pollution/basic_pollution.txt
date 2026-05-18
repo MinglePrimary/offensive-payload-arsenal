@@ -1,0 +1,10 @@
+**proto**[polluted]=true
+**proto**[isAdmin]=true
+**proto**[test]=polluted
+constructor[prototype][polluted]=true
+constructor[prototype][isAdmin]=true
+prototype[polluted]=true
+prototype[isAdmin]=true
+**proto**.polluted=true
+constructor.prototype.polluted=true
+prototype.polluted=true

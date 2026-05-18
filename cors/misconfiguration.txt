@@ -1,0 +1,10 @@
+https://evil.com
+https://attacker.com
+https://example.evil.com
+https://evil.com.example.com
+https://subdomain.attacker.com
+https://evil.co
+https://attacker.site
+https://malicious.com
+https://evil.example
+https://evil-domain.com

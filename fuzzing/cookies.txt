@@ -1,0 +1,10 @@
+session
+sessionid
+sid
+auth
+token
+jwt
+access_token
+rememberme
+admin
+userid

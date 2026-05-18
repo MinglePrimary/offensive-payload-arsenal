@@ -1,0 +1,10 @@
+state=
+state=null
+state=undefined
+state=123456
+state=000000
+state=test
+state=admin
+state=AAAA
+state=BBBB
+state=xyz

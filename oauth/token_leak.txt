@@ -1,0 +1,10 @@
+https://attacker.com/#access_token=
+https://attacker.com/#token=
+https://attacker.com/#id_token=
+https://attacker.com/callback#access_token=
+https://attacker.com/#access_token=leak
+https://attacker.com/#id_token=leak
+https://attacker.com/?token=
+https://attacker.com/?access_token=
+https://attacker.com/?id_token=
+https://attacker.com/?auth_token=

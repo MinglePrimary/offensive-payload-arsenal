@@ -1,0 +1,85 @@
+image/jpeg
+image/jpg
+image/pjpeg
+image/png
+image/x-png
+image/gif
+image/bmp
+image/x-bmp
+image/webp
+image/svg+xml
+
+application/octet-stream
+application/x-php
+application/php
+application/x-httpd-php
+application/x-httpd-php-source
+
+application/x-shellscript
+application/x-sh
+application/x-cgi
+
+application/x-msdownload
+application/x-executable
+application/x-binary
+
+text/plain
+text/x-php
+text/x-script
+text/html
+text/xml
+
+multipart/form-data
+multipart/mixed
+multipart/related
+
+application/x-jpg
+application/x-png
+application/x-gif
+application/x-image
+
+application/x-httpd-php3
+application/x-httpd-php4
+application/x-httpd-php5
+application/x-httpd-php7
+application/x-httpd-php8
+
+image/jpeg; charset=binary
+image/png; charset=utf-8
+image/gif; charset=ascii
+
+image/jpeg; boundary=something
+image/png; boundary=something
+
+image/jpeg; name="shell.php"
+image/png; name="shell.php"
+
+image/jpeg; filename="shell.php"
+image/png; filename="shell.php"
+
+application/octet-stream; name="shell.php"
+application/octet-stream; filename="shell.php"
+
+image/jpeg; x-content-type-options=nosniff
+image/png; x-content-type-options=nosniff
+
+image/jpeg; q=0.8
+image/png; q=0.9
+
+image/jpeg; charset=utf-8
+image/png; charset=utf-8
+
+image/jpeg; type=php
+image/png; type=php
+
+image/jpeg; encoding=binary
+image/png; encoding=binary
+
+application/x-httpd-php; charset=binary
+application/x-httpd-php; charset=utf-8
+
+image/jpeg
+image/png
+image/gif
+application/octet-stream
+text/plain

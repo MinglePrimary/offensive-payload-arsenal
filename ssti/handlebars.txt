@@ -1,0 +1,157 @@
+{{7*7}}
+{{this}}
+{{this.constructor}}
+{{this.constructor.name}}
+{{lookup this "constructor"}}
+{{lookup this "__proto__"}}
+{{#each this}}{{this}}{{/each}}
+{{#with this}}{{this}}{{/with}}
+{{lookup this "toString"}}
+{{lookup this "valueOf"}}
+
+{{7*7}}
+{{8*8}}
+{{9*9}}
+
+{{7+7}}
+{{8+8}}
+{{9+9}}
+
+{{1337-1}}
+{{100/2}}
+
+{{this}}
+{{this.constructor}}
+{{this.constructor.name}}
+
+{{@root}}
+
+{{lookup . "constructor"}}
+
+{{lookup this "constructor"}}
+
+{{lookup this "constructor.name"}}
+
+{{this.toString}}
+
+{{this.valueOf}}
+
+{{#each this}}{{this}}{{/each}}
+
+{{#with this}}{{this}}{{/with}}
+
+{{#each this}}{{@index}}{{/each}}
+
+{{#each this}}{{@key}}{{/each}}
+
+{{#each this}}{{@first}}{{/each}}
+
+{{#each this}}{{@last}}{{/each}}
+
+{{#each this}}{{@root}}{{/each}}
+
+{{#with "test"}}{{this}}{{/with}}
+
+{{#with "hello"}}{{this}}{{/with}}
+
+{{#with "123"}}{{this}}{{/with}}
+
+{{#with this.constructor}}{{this}}{{/with}}
+
+{{#with this.constructor.name}}{{this}}{{/with}}
+
+{{lookup (lookup this "constructor") "name"}}
+
+{{lookup this "toString"}}
+
+{{lookup this "valueOf"}}
+
+{{lookup this "**proto**"}}
+
+{{lookup this "**defineGetter**"}}
+
+{{lookup this "**defineSetter**"}}
+
+{{lookup this "hasOwnProperty"}}
+
+{{lookup this "isPrototypeOf"}}
+
+{{lookup this "propertyIsEnumerable"}}
+
+{{lookup this "**lookupGetter**"}}
+
+{{lookup this "**lookupSetter**"}}
+
+{{#with (lookup this "constructor")}}{{this}}{{/with}}
+
+{{#with (lookup this "**proto**")}}{{this}}{{/with}}
+
+{{#each (lookup this "**proto**")}}{{this}}{{/each}}
+
+{{#each (lookup this "constructor")}}{{this}}{{/each}}
+
+{{#with (lookup this "constructor.name")}}{{this}}{{/with}}
+
+{{#with (lookup this "toString")}}{{this}}{{/with}}
+
+{{#with (lookup this "valueOf")}}{{this}}{{/with}}
+
+{{#with (lookup this "hasOwnProperty")}}{{this}}{{/with}}
+
+{{#with (lookup this "isPrototypeOf")}}{{this}}{{/with}}
+
+{{#each (lookup this "constructor.name")}}{{this}}{{/each}}
+
+{{#each (lookup this "toString")}}{{this}}{{/each}}
+
+{{#each (lookup this "valueOf")}}{{this}}{{/each}}
+
+{{#each (lookup this "**proto**")}}{{@key}}{{/each}}
+
+{{#each (lookup this "**proto**")}}{{@index}}{{/each}}
+
+{{#each (lookup this "**proto**")}}{{this}}{{/each}}
+
+{{#each (lookup this "constructor")}}{{@key}}{{/each}}
+
+{{#each (lookup this "constructor")}}{{@index}}{{/each}}
+
+{{#each (lookup this "constructor")}}{{this}}{{/each}}
+
+{{#with (lookup this "**proto**")}}{{@root}}{{/with}}
+
+{{#with (lookup this "constructor")}}{{@root}}{{/with}}
+
+{{#each this}}{{lookup this "constructor"}}{{/each}}
+
+{{#each this}}{{lookup this "**proto**"}}{{/each}}
+
+{{#each this}}{{lookup this "toString"}}{{/each}}
+
+{{#each this}}{{lookup this "valueOf"}}{{/each}}
+
+{{#each this}}{{lookup this "hasOwnProperty"}}{{/each}}
+
+{{#each this}}{{lookup this "isPrototypeOf"}}{{/each}}
+
+{{lookup this "constructor.prototype"}}
+
+{{lookup this "**proto**.constructor"}}
+
+{{lookup this "**proto**.toString"}}
+
+{{lookup this "**proto**.valueOf"}}
+
+{{lookup this "**proto**.hasOwnProperty"}}
+
+{{lookup this "**proto**.isPrototypeOf"}}
+
+{{lookup this "**proto**.propertyIsEnumerable"}}
+
+{{lookup this "**proto**.**defineGetter**"}}
+
+{{lookup this "**proto**.**defineSetter**"}}
+
+{{lookup this "**proto**.**lookupGetter**"}}
+
+{{lookup this "**proto**.**lookupSetter**"}}

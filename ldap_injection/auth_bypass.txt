@@ -1,0 +1,11 @@
+*
+
+*)(uid=*))(|(uid=*
+*)(|(uid=*))(
+admin)*
+*)(|(uid=admin))(
+*)(&(uid=*))(
+*)(objectClass=*)
+*)(|(objectClass=*))(
+*)(&(objectClass=*))(
+*)(|(cn=*))(

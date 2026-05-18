@@ -1,0 +1,10 @@
+https://attacker.com
+https://attacker.com/callback
+https://evil.com
+https://target.com.evil.com
+https://evil.com/redirect?url=https://target.com
+https://target.com@evil.com
+https://evil.com#https://target.com
+https://evil.com?redirect=https://target.com
+https://attacker.com/%2F%2Ftarget.com
+https://attacker.com/.target.com

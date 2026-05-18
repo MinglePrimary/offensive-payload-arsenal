@@ -1,0 +1,10 @@
+id
+user
+username
+email
+password
+token
+role
+isAdmin
+debug
+config

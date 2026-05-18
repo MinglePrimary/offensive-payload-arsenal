@@ -1,0 +1,10 @@
+../../../../etc/passwd
+../../../../dev/null
+../../../../proc/self/environ
+../../../../var/www/html/key
+../../../../app/secret.key
+/var/run/secrets/kubernetes.io/serviceaccount/token
+/etc/hosts
+/etc/hostname
+../../../../windows/win.ini
+../../../../windows/system32/drivers/etc/hosts

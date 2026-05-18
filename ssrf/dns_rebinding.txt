@@ -1,0 +1,10 @@
+http://127.0.0.1.nip.io
+http://localhost.nip.io
+http://127.0.0.1.sslip.io
+http://localhost.sslip.io
+http://127.0.0.1.lvh.me
+http://localhost.lvh.me
+http://169.254.169.254.nip.io
+http://127-0-0-1.nip.io
+http://10.0.0.1.nip.io
+http://192.168.1.1.nip.io

